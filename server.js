@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 
-let _letters = '';
+var _letters = '';
 
 app.get('/', function (req, res) {
 	_letters += req.originalUrl.slice(2);
