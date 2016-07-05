@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/loschorts/quick#readme",
   "dependencies": {
+    "ejs": "~1.0.0",
     "express": "^4.14.0"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
